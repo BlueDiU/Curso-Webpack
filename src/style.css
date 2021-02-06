@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'chalet';
+  font-size: normal;
+  font-weight: normal;
+  src: url('assets/chalet.woff') format('woff');
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Chalet', sans-serif, serif;
+  font-size: 16px;
+  background-color: rgb(65, 80, 85);
+  color: rgb(255, 255, 255);
+  background-image: url('./assets/batman.jpg');
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  max-width: 4rem;
+}
+
+a {
+  color: #ffff;
+}
+
+.menu {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
